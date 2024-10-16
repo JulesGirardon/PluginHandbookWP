@@ -1,0 +1,11 @@
+{
+    "name": "jules/plugin",
+    "description": "I learn wordpress",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Jules\\Plugin\\": "src/"
+        }
+    },
+    "require": {}
+}
