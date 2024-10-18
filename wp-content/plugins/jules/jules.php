@@ -22,4 +22,4 @@ define('JULES_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
 require JULES_PLUGIN_DIR . 'vendor/autoload.php';
 
-$plugin = new PluginTest();
+$plugin = new PluginTest(__FILE__);
